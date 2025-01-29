@@ -27,3 +27,9 @@ def main(): Unit =
     dataTypeEx.implicitTypeCasting()
     dataTypeEx.explicitTypeCasting()
 
+    println("-----------------------------------------------------------------")
+    println("Type Inference example")
+    val typeInf = new TypeInferenceDemo()
+    typeInf.typeInferenceExample1()
+    typeInf.typeInferenceExample2()
+
